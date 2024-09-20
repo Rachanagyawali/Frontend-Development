@@ -8,7 +8,7 @@
   font-family: "Roboto", sans-serif;
 }
 
-.signup-page {
+.signin-page {
   min-height: 100dvh;
   display: flex;
   align-items: center;
@@ -17,17 +17,17 @@
   gap: 3rem;
 }
 
-.signup-image,
-.signup-page-container {
+.signin-image,
+.signin-page-container {
   width: 28rem;
 }
 
-.signup-image {
-  background-color: red;
+.signin-image {
+  
   height: 100% !important;
 }
 
-.signup-page-container {
+.signin-page-container {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -53,13 +53,13 @@
   font-size: 2.5rem;
 }
 
-.signup-inputs {
+.signin-inputs {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.signup-inputs input {
+.signin-inputs input {
   width: 100%;
   padding: 1rem;
   border-radius: 4px;
@@ -68,7 +68,7 @@
   font-size: 1rem;
 }
 
-.signup-inputs > button {
+.signin-inputs > button {
   background-color: #0530f1;
   border: none;
   padding: 1rem 2rem;
